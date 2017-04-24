@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Random randomico = new Random();
                 int numeroAleatorio = randomico.nextInt( frases.length );
 
+                
                 textoNovaFrase.setText(frases[numeroAleatorio]);
             }
         });
